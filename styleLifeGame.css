@@ -1,0 +1,44 @@
+body {
+    padding: 20px;
+    background-color: #444;
+}
+
+#grid_сontainer {
+    padding-bottom: 10px;
+}
+
+table {
+    background-color: #C5D6C6;
+    border-spacing: 0;
+}
+
+td {
+    border: 1px solid #F1F5DA;
+    border-radius: 3px;
+    width: 10px;
+    height: 10px;
+}
+
+span {
+    color: #222;
+}
+
+#startButton,
+#clearButton,
+#randomButton {
+    padding: .75em;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(
+            to bottom right,
+            #C5D6C6, #444444);
+}
+
+td.dead {
+    background-color: transparent;
+}
+
+td.live {
+    background-color: #222222;
+    border-radius: 10px;
+}
